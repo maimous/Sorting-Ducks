@@ -15,5 +15,8 @@
 
 &nbsp;
 ## 03 Implement IComparable<Duck>
-* Update Duck class by implementing IComparable<Duck> so that it sorts
-itself  based on duck size.
+* Update Duck class by implementing IComparable<Duck> so that it can sort itself based on duck size.
+
+&nbsp;
+## 04 Use IComparer to sort by size
+* Sort using IComparer<T>. A new instance of the class that implements it has to be created.

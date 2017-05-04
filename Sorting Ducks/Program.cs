@@ -21,7 +21,11 @@ namespace Sorting_Ducks
             };
 
             // sort my ducks by size with IComparable
-            ducks.Sort();
+            //ducks.Sort();
+
+            // sort my ducks by size with DuckComparerBySize
+            DuckComparerBySize sizeComparer = new DuckComparerBySize();
+            ducks.Sort(sizeComparer);
 
             // log my ducks
             foreach (Duck duck in ducks)
