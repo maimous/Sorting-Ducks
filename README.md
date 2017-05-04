@@ -20,3 +20,7 @@
 &nbsp;
 ## 04 Use IComparer to sort by size
 * Sort using IComparer<T>. A new instance of the class that implements it has to be created.
+
+&nbsp;
+## 05 Use IComparer to sort by kind
+* Compare the ducks’ Kind properties, so the ducks are sorted based on the index value of the Kind property, a KindOfDuck enum.
