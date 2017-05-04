@@ -12,3 +12,8 @@
 &nbsp;
 ## 02 Initialize a List of ducks
 * Initialize a List of six ducks.
+
+&nbsp;
+## 03 Implement IComparable<Duck>
+* Update Duck class by implementing IComparable<Duck> so that it sorts
+itself  based on duck size.
