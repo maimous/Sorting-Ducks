@@ -8,3 +8,7 @@
 &nbsp;
 ## 01 Add the Duck class
 * Add the Duck class and the KindOfDuck enum.
+
+&nbsp;
+## 02 Initialize a List of ducks
+* Initialize a List of six ducks.

@@ -10,6 +10,19 @@ namespace Sorting_Ducks
     {
         static void Main(string[] args)
         {
+            List<Duck> ducks = new List<Duck>() {
+                new Duck() { Kind = KindOfDuck.Mallard, Size = 17 },
+                new Duck() { Kind = KindOfDuck.Muscovy, Size = 18 },
+                new Duck() { Kind = KindOfDuck.Decoy, Size = 14 },
+                new Duck() { Kind = KindOfDuck.Muscovy, Size = 11 },
+                new Duck() { Kind = KindOfDuck.Mallard, Size = 14 },
+                new Duck() { Kind = KindOfDuck.Decoy, Size = 13 },
+            };
+            foreach (Duck duck in ducks)
+            {
+                Console.WriteLine("There's a {0} of size {1}.", duck.Kind, duck.Size);
+            }
+            Console.ReadKey();
         }
     }
 }
